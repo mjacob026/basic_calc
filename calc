@@ -1,0 +1,23 @@
+num1 = float(input("Enter a 1st Number : "))
+num2 = float(input("Enter a 2nd Number : "))
+
+z = input("a = Plus, b = Minus, c = Multiply, d = Divide : ")
+
+res1 = num1 + num2
+res2 = num1 - num2
+res3 = num1 * num2
+res4 = num1 / num2
+
+
+if z == 'a':
+    print(str(num1) + " + " + str(num2) + " = " + str(res1))
+
+elif z == 'b':
+    print(str(num1) + " - " + str(num2) + " = " + str(res2))
+
+elif z == 'c':
+    print(str(num1) + " x " + str(num2) + " = " + str(res3))
+
+elif z == 'd':
+    print(str(num1) + " / " + str(num2) + " = " + str(res4))
+
